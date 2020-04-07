@@ -1,0 +1,60 @@
+body {
+  background: black;
+}
+
+.main {
+  background: white;
+  width: 500px;
+  height: 600px;
+  margin: auto;
+}
+.header {
+  height: 70px;
+  position: relative;
+}
+
+.header-logo {
+  height: 100%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 40px;
+}
+.header-title {
+  width: 200px;
+  position: absolute;
+  left: 60px;
+}
+.header-icon {
+  position: absolute;
+  right: 10px;
+  font-size: 40px;
+  top: 10px;
+}
+.left {
+  float: left;
+}
+.d-inline-block {
+  display: inline-block;
+}
+h1,
+h4 {
+  margin: 0;
+}
+.icons {
+  position: relative;
+  height: 25px;
+  border: 1px;
+}
+.icons-left {
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 3px;
+}
+.icons-right {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
